@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <!-- Favicon -->
+  <!-- <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon" /> -->
+  
+  <!-- Libs CSS -->
+  <link rel="stylesheet" href="./assets/css/libs.bundle.css" />
+  
+ 
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="./assets/css/index.bundle.css" />
+  
+  <!-- Title -->
+<title>Contact Opelousas Art Walk</title>
+
+</head>
+
+<style>
+  body {
+    --bs-primary: #944F37;
+  }
+</style>
+
+<body>
+
+  <!-- navbar -->
+  <nav id="mainNav" class="navbar navbar-expand-lg navbar-sticky navbar-dark bg-danger">
+    <div class="container">
+      <a href="/" class="navbar-brand"><img src="./assets/images/logo-light.svg" style="min-width:250px;" alt="Opelousas Art Walk"></a>
+  
+      <!-- secondary -->
+     <ul class="navbar-nav navbar-nav-secondary order-lg-3">
+       <li class="nav-item d-lg-none">
+         <a class="nav-link nav-icon" href="" role="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+           aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="bi bi-list"></span>
+         </a>
+       </li>
+      
+     </ul>
+ 
+      <!-- primary -->
+      <div class="collapse navbar-collapse" id="navbar" data-bs-parent="#mainNav">
+       <ul class="navbar-nav ms-auto">
+         <li class="nav-item">
+           <a class="nav-link" href="about">
+             About
+           </a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="map">
+             Artwalk Map
+           </a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="artist">
+             Artist
+           </a>
+         </li>
+         <li class="nav-item d-none">
+           <a class="nav-link" href="businesses">
+             Businesses
+           </a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="contact">
+             Contact
+           </a>
+         </li>
+       </ul>
+      </div>
+  
+      <!-- mobile user menu -->
+    </div>
+  </nav>
+  
+
+
+
+  <section class="py-15 py-xl-20">
+    <div class="container mt-5 mt-lg-10">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-lg-8 mb-4 mb-lg-0">
+          <h1>Have some more questions? Contact us!</h1>
+        
+          <hr class="my-4 fw-25 ml-0">
+          <ul class="list-group list-group-minimal">
+            <li class="list-group-item d-flex align-items-center">
+              <span class="w-25 text-muted">Email</span>
+              info@opelousasartwalk.com
+            </li>
+            <li class="list-group-item d-flex align-items-center">
+              <span class="w-25 text-muted">Facebook & Instagram</span>
+              @opelousasartwalk
+            </li>
+            
+          </ul>
+        </div>
+       
+      </div>
+    </div>
+  </section>
+
+ <!-- footer -->
+ <footer class="py-15 py-xl-20 bg-light">
+   <div class="container">
+     <div class="row g-2 g-lg-6 mb-8">
+       <div class="col-lg-6">
+         <h6>103 W. Landry Street Opelousas, <br>LA 70570</h6>
+       </div>
+       <div class="col-lg-6 text-lg-end">
+         <span class="h5"><img src="./assets/images/text.svg" style="width:50%"/></span>
+       </div>
+     </div>
+     <div class="row mb-8">
+       <div class="col">
+         <hr>
+       </div>
+     </div>
+     <div class="row g-0 g-lg-6 text-secondary">
+       <div class="col-lg-6 text-lg-end order-lg-2">
+         <ul class="list-inline">
+           <li class="list-inline-item"><a href="https://facebook.com/opelousasartwalk" class="text-reset" target="_blank">facebook</a></li>
+           <li class="list-inline-item ms-1"><a href="https://instagram.com/opelousasartwalk" class="text-reset" target="_blank">instagram</a></li>
+         </ul>
+       </div>
+       <div class="col-lg-6 order-lg-1">
+         <p>Copyrights © 2021</p>
+       </div>
+     </div>
+   </div>
+ </footer>
+
+
+
+  <script>
+    function initMap() {
+      var latlng = new google.maps.LatLng(40.702888, -74.012420);
+
+      var myOptions = {
+        zoom: 18,
+        center: latlng,
+        disableDefaultUI: true,
+        styles: [
+          {
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#f5f5f5"
+              }
+            ]
+          },
+          {
+            "elementType": "labels.icon",
+            "stylers": [
+              {
+                "visibility": "off"
+              }
+            ]
+          },
+          {
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#616161"
+              }
+            ]
+          },
+          {
+            "elementType": "labels.text.stroke",
+            "stylers": [
+              {
+                "color": "#f5f5f5"
+              }
+            ]
+          },
+          {
+            "featureType": "administrative.land_parcel",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#bdbdbd"
+              }
+            ]
+          },
+          {
+            "featureType": "poi",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#eeeeee"
+              }
+            ]
+          },
+          {
+            "featureType": "poi",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#757575"
+              }
+            ]
+          },
+          {
+            "featureType": "poi.park",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#e5e5e5"
+              }
+            ]
+          },
+          {
+            "featureType": "poi.park",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#9e9e9e"
+              }
+            ]
+          },
+          {
+            "featureType": "road",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#ffffff"
+              }
+            ]
+          },
+          {
+            "featureType": "road.arterial",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#757575"
+              }
+            ]
+          },
+          {
+            "featureType": "road.highway",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#dadada"
+              }
+            ]
+          },
+          {
+            "featureType": "road.highway",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#616161"
+              }
+            ]
+          },
+          {
+            "featureType": "road.local",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#9e9e9e"
+              }
+            ]
+          },
+          {
+            "featureType": "transit.line",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#e5e5e5"
+              }
+            ]
+          },
+          {
+            "featureType": "transit.station",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#eeeeee"
+              }
+            ]
+          },
+          {
+            "featureType": "water",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#c9c9c9"
+              }
+            ]
+          },
+          {
+            "featureType": "water",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#9e9e9e"
+              }
+            ]
+          }
+        ]
+      };
+
+      var map = new google.maps.Map(document.getElementById("map1"), myOptions);
+
+      map.panBy(-100, -40);
+
+      var myMarker = new google.maps.Marker(
+        {
+          position: latlng,
+          map: map,
+          icon: 'assets/images/svg/pin.svg'
+        });
+    }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAME5wJgLdn1aQSxC7-iWxJ3isuveK9Rv4&callback=initMap"
+    async defer></script>
+
+  <!-- javascript -->
+  <script src="./assets/js/vendor.bundle.js"></script>
+  <script src="./assets/js/index.bundle.js"></script></body>
+
+</html>

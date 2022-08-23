@@ -1,0 +1,601 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <!-- Favicon -->
+  <!-- <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon" /> -->
+  
+  <!-- Libs CSS -->
+  <link rel="stylesheet" href="./assets/css/libs.bundle.css" />
+  
+ 
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="./assets/css/index.bundle.css" />
+  
+  <!-- Title -->
+<title>Opelousas Art Walk</title>
+
+</head>
+
+<style>
+  body {
+    --bs-primary: #944F37;
+  }
+</style>
+
+<body>
+
+  <!-- navbar -->
+  <nav id="mainNav" class="navbar navbar-expand-lg navbar-sticky navbar-dark">
+    <div class="container">
+      <a href="home" class="navbar-brand"><img src="./assets/images/logo-light.svg" style="min-width:250px;" alt="Opelousas Art Walk"></a>
+  
+      <!-- secondary -->
+     <ul class="navbar-nav navbar-nav-secondary order-lg-3">
+       <li class="nav-item d-lg-none">
+         <a class="nav-link nav-icon" href="" role="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+           aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="bi bi-list"></span>
+         </a>
+       </li>
+      
+     </ul>
+ 
+      <!-- primary -->
+      <div class="collapse navbar-collapse" id="navbar" data-bs-parent="#mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="about">
+              About
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="map">
+              Artwalk Map
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="artist">
+              Artist
+            </a>
+          </li>
+          <li class="nav-item d-none">
+            <a class="nav-link" href="businesses">
+              Businesses
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+  
+      <!-- mobile user menu -->
+    </div>
+  </nav>
+  
+  <!-- header -->
+  <section class="bg-red inverted overflow-hidden">
+    <div class="container d-flex flex-column py-15 py-xl-20 min-vh-100 level-1">
+      <div class="row my-auto justify-content-center align-items-center">
+        <div class="col-md-8 col-lg-4 position-relative order-lg-2 mb-5 mb-lg-0" data-aos="fade-up">
+          <figure class="equal-1-1 rounded-circle" style="background-image: url('./assets/images/great-egret-scaled.jpg')">
+          </figure>
+          <img class="position-absolute bottom-0 end-0 rotate" src="./assets/images/svg/featured-light.svg" alt="">
+        </div>
+        <div class="col-lg-8 text-center text-lg-start">
+          <h1 class="display-1"><span class="fw-bold">ArtWalk</span> &mdash; Showcasing the creative side of Downtown</h1>
+          <div class="row justify-content-center justify-content-lg-start g-1">
+            <div class="col-auto"><a href="https://opelousasartwalk-artistform.paperform.co" target="_blank" class="btn btn-white rounded-pill">Artist Signup</a></div>
+          </div>
+          <div class="row mt-10">
+            <div class="col-4">
+              <span class="eyebrow text-muted mb-1">When</span>
+              <span class="d-block fs-5">Nov 5th</span>
+            </div>
+            <div class="col-4">
+              <span class="eyebrow text-muted mb-1">Time</span>
+              <span class="d-block fs-5">6pm</span>
+            </div>
+            <div class="col-4">
+              <span class="eyebrow text-muted mb-1">Duration</span>
+              <span class="d-block fs-5">3 Hours</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <figure class="background">
+      <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle data-aos="fade-up" data-aos-delay="150" cx="125%" cy="-25%" r="35%" fill="white" fill-opacity=".05"
+          data-top-top="@cy: -25%; @cx: 115%;" data-top-bottom="@cy: 0%; @cx: 105%;" />
+        <circle data-aos="fade-up" data-aos-delay="300" cx="90%" cy="125%" r="75%" fill="black" fill-opacity=".1"
+          data-center-top="@r: 75%;" data-top-bottom="@r: 85%;" />
+        <circle data-aos="fade-up" data-aos-delay="450" cx="5%" cy="125%" r="50%" stroke="black" stroke-opacity=".2"
+          data-center-top="@r: 50%;" data-center-bottom="@r: 70%;" />
+      </svg>
+    </figure>
+  </section>
+  <!-- steps carousel -->
+  <section class="py-15 py-xl-20 overflow-hidden">
+    <div class="container">
+      <div class="row mb-10">
+        <div class="col-12">
+         <h2>So what is an art walk and how does it work?</h2>
+         
+         <p>The Opelousas Art Walk is a FREE community event held monthly throughout the year, beginning November 5th, 2021.  </p>
+           
+          <p> Opelousas’ downtown businesses will host an artist in their location to showcase local and regional art - offering the public the chance to meet and interact directly with the artists.</p>
+            
+            <p>We invite you to come to enjoy all the amazing art St. Landry has to offer. We are working on a growing assortment of fun events and activities to engage your creative minds. Come experience something awesome!
+         </p>
+        </div>
+      </div>
+    
+    </div>
+  </section>
+<!-- subscribe -->
+<section class="bg-red py-15 py-xl-20 inverted overflow-hidden">
+  <div class="container level-1">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-xl-6 text-center">
+        <h2 class="mb-5">Interested in having your business be a part?
+        </h2>
+       <a href="https://opelousasartwalk-businessform.paperform.co" target="_blank" class="btn btn-white rounded-pill">Business Signup</a>
+      </div>
+    </div>
+  </div>
+  <figure class="background background-dimm background-parallax"
+    style="background-image: url('./assets/images/art.jpeg')" data-bottom-top="transform: translateY(0%);"
+    data-top-bottom="transform: translateY(20%);">
+  </figure>
+</section>
+
+  <section class="py-15 py-xl-20 border-bottom">
+    <div class="container">
+      <div class="row mb-10">
+        <div class="col-lg-6">
+          <h2 class="fw-light">Meet the <span class="fw-bold">Businesses</span> </h2>
+        </div>
+      </div>
+      <div class="row g-3 g-xl-5">
+        <div class="col-lg-3">
+          <div class="d-flex">
+           
+            <div>
+              <p class="fs-lg"><b>Java Square</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="d-flex">
+           
+            <div>
+              <p class="fs-lg"><b>Page 50 </b></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="d-flex">
+           
+            <div>
+              <p class="fs-lg"><b>Lagniappe Vape Shop</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="d-flex">
+           
+            <div>
+              <p class="fs-lg"><b>Wild Child</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="d-flex">
+           
+            <div>
+              <p class="fs-lg"><b>Moss Floral</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="d-flex">
+           
+            <div>
+              <p class="fs-lg"><b>Chicory's at the Palace</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="d-flex">
+           
+            <div>
+              <p class="fs-lg"><b>Great Expresions Salon</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Artist -->
+  <section class="py-0">
+    <div class="container-full">
+      <div class="row g-0">
+        <div class="col-sm-6 col-md-6 col-lg-8 col-xl-3">
+          <div class="card h-100 bg-danger inverted">
+            <div class="card-wrap">
+              <div class="card-footer mt-auto">
+    
+                <h2> Some of  <br/>the Artist</h2>
+                <span class="" style="font-size:.75em"><a href="artist">View all artist</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-xl-3">
+          <a href="" class="card card-hover-gradient inverted equal-1-1">
+            <div class="card-wrap">
+              <div class="card-footer text-shadow mt-auto">
+                <h5 class="mb-0">Artworks by Ted Bertrand</h5>
+              </div>
+            </div>
+            <figure class="background" style="background-image: url('./assets/images/great-egret-scaled.jpg')">
+            </figure>
+          </a>        </div>
+        <div class="col-sm-6 col-lg-4 col-xl-3">
+          <a href="" class="card card-hover-gradient inverted equal-1-1">
+            <div class="card-wrap">
+              <div class="card-footer text-shadow mt-auto">
+                <h5 class="mb-0">Tiffany Matt</h5>
+              
+              </div>
+            </div>
+            <figure class="background" style="background-image: url('./assets/images/tiffany-matt.jpg')">
+            </figure>
+          </a>        </div>
+        <div class="col-sm-6 col-lg-4 col-xl-3">
+          <a href="" class="card card-hover-gradient inverted equal-1-1">
+            <div class="card-wrap">
+              <div class="card-footer text-shadow mt-auto">
+                <h5 class="mb-0">Catherine Myers</h5>
+   
+              </div>
+            </div>
+            <figure class="background" style="background-image: url('./assets/images/3.jpg')">
+            </figure>
+          </a>        </div>
+      
+       
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Arist Sign-up -->
+  <section class="py-20 mx-0 mx-lg-3">
+    <div class="container">
+      <div class="row justify-content-center mb-6">
+        <div class="col-lg-10 text-center">
+  
+          <h1 class="display-1 fw-bold">Want to be an artist<br/> in Opelousas art walk?</h1>
+          <p>The Opelousas Art Walk is always accepting applications from local artists who wish to show their artwork or perform during Art Walks. If you wish to be considered to be added to our online artist database, please fill out an application.</p>
+          <a href="https://opelousasartwalk-artistform.paperform.co" class="btn btn-dark rounded-pill my-3">Artist Sign-up</a>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <!-- FAQ -->
+  <section class="bg-light py-15 py-xl-20 d-none">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-12 text-center">
+        <h2 class="fw-bold">Frequently Asked Questions</h2>
+      </div>
+    </div>
+    <div class="row g-3 g-xl-5">
+      <div class="col-lg-6">
+        <div class="card bg-opaque-white" data-aos="fade-up">
+          <div class="card-body bg-white">
+            <h3 class="fs-4 my-3">Introduction</h3>
+            <div class="accordion" id="accordion-1">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-1-1">
+                  <button class="accordion-button lead collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse-1-1" aria-expanded="false" aria-controls="collapse-1-1">
+                    Welcome to the course
+                  </button>
+                </h2>
+                <div id="collapse-1-1" class="accordion-collapse collapse" aria-labelledby="heading-1-1"
+                  data-bs-parent="#accordion-1">
+                  <div class="accordion-body">
+                    <p class="text-secondary">Yes. The gulp workflow can
+                      be
+                      bypassed all together if you prefer to simply edit the static HTML and CSS files.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-1-2">
+                  <button class="accordion-button lead collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse-1-2" aria-expanded="false" aria-controls="collapse-1-2">
+                    Getting Started
+                  </button>
+                </h2>
+                <div id="collapse-1-2" class="accordion-collapse collapse" aria-labelledby="heading-1-2"
+                  data-bs-parent="#accordion-1">
+                  <div class="accordion-body">
+                    <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo,
+                      voluptas. Quibusdam, quia. Accusantium, quo maxime est ullam at voluptas aspernatur. Iure
+                      assumenda labore esse vero ad. Deleniti ea totam dolorem.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <ul class="list-inline list-inline-separated text-secondary eyebrow">
+              <li class="list-inline-item">2 Lessons</li>
+              <li class="list-inline-item">3.3 Hours</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card bg-opaque-white mt-3 mt-xl-5" data-aos="fade-up">
+          <div class="card-body bg-white">
+            <h3 class="fs-4 my-3">Color</h3>
+            <div class="accordion" id="accordion-3">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-3-1">
+                  <button class="accordion-button lead collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse-3-1" aria-expanded="false" aria-controls="collapse-3-1">
+                    Working with color
+                  </button>
+                </h2>
+                <div id="collapse-3-1" class="accordion-collapse collapse" aria-labelledby="heading-3-1"
+                  data-bs-parent="#accordion-3">
+                  <div class="accordion-body">
+                    <p class="text-secondary">Yes. The gulp workflow can
+                      be
+                      bypassed all together if you prefer to simply edit the static HTML and CSS files.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-3-2">
+                  <button class="accordion-button lead collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse-3-2" aria-expanded="false" aria-controls="collapse-3-2">
+                    How to use the gradient tool in Illustrator
+                  </button>
+                </h2>
+                <div id="collapse-3-2" class="accordion-collapse collapse" aria-labelledby="heading-3-2"
+                  data-bs-parent="#accordion-3">
+                  <div class="accordion-body">
+                    <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo,
+                      voluptas. Quibusdam, quia. Accusantium, quo maxime est ullam at voluptas aspernatur. Iure
+                      assumenda labore esse vero ad. Deleniti ea totam dolorem.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-3-3">
+                  <button class="accordion-button lead collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse-3-3" aria-expanded="false" aria-controls="collapse-3-3">
+                    How to use the pen tool in Illustrator
+                  </button>
+                </h2>
+                <div id="collapse-3-3" class="accordion-collapse collapse" aria-labelledby="heading-3-3"
+                  data-bs-parent="#accordion-3">
+                  <div class="accordion-body">
+                    <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo,
+                      voluptas. Quibusdam, quia. Accusantium, quo maxime est ullam at voluptas aspernatur. Iure
+                      assumenda labore esse vero ad. Deleniti ea totam dolorem.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <ul class="list-inline list-inline-separated text-secondary eyebrow">
+              <li class="list-inline-item">2 Lessons</li>
+              <li class="list-inline-item">3.3 Hours</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card bg-opaque-white" data-aos="fade-up">
+          <div class="card-body bg-white">
+            <h3 class="fs-4 my-3">How to Draw in Illustrator</h3>
+            <div class="accordion" id="accordion-2">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-2-1">
+                  <button class="accordion-button lead collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse-2-1" aria-expanded="false" aria-controls="collapse-2-1">
+                    Setting up our document
+                  </button>
+                </h2>
+                <div id="collapse-2-1" class="accordion-collapse collapse" aria-labelledby="heading-2-1"
+                  data-bs-parent="#accordion-2">
+                  <div class="accordion-body">
+                    <p class="text-secondary">Yes. The gulp workflow can
+                      be
+                      bypassed all together if you prefer to simply edit the static HTML and CSS files.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-2-2">
+                  <button class="accordion-button lead collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse-2-2" aria-expanded="false" aria-controls="collapse-2-2">
+                    Drawing ith shapes and lines
+                  </button>
+                </h2>
+                <div id="collapse-2-2" class="accordion-collapse collapse" aria-labelledby="heading-2-2"
+                  data-bs-parent="#accordion-2">
+                  <div class="accordion-body">
+                    <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo,
+                      voluptas. Quibusdam, quia. Accusantium, quo maxime est ullam at voluptas aspernatur. Iure
+                      assumenda labore esse vero ad. Deleniti ea totam dolorem.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-2-3">
+                  <button class="accordion-button lead collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse-2-3" aria-expanded="false" aria-controls="collapse-2-3">
+                    Grouping and arranging
+                  </button>
+                </h2>
+                <div id="collapse-2-3" class="accordion-collapse collapse" aria-labelledby="heading-2-3"
+                  data-bs-parent="#accordion-2">
+                  <div class="accordion-body">
+                    <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo,
+                      voluptas. Quibusdam, quia. Accusantium, quo maxime est ullam at voluptas aspernatur. Iure
+                      assumenda labore esse vero ad. Deleniti ea totam dolorem.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-2-4">
+                  <button class="accordion-button lead collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse-2-4" aria-expanded="false" aria-controls="collapse-2-4">
+                    Drawing with shape builder tool
+                  </button>
+                </h2>
+                <div id="collapse-2-4" class="accordion-collapse collapse" aria-labelledby="heading-2-4"
+                  data-bs-parent="#accordion-2">
+                  <div class="accordion-body">
+                    <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo,
+                      voluptas. Quibusdam, quia. Accusantium, quo maxime est ullam at voluptas aspernatur. Iure
+                      assumenda labore esse vero ad. Deleniti ea totam dolorem.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <ul class="list-inline list-inline-separated text-secondary eyebrow">
+              <li class="list-inline-item">2 Lessons</li>
+              <li class="list-inline-item">3.3 Hours</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card bg-opaque-white mt-3 mt-xl-5" data-aos="fade-up">
+          <div class="card-body bg-white">
+            <h3 class="fs-4 my-3">Sketching</h3>
+            <div class="accordion" id="accordion-4">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-4-1">
+                  <button class="accordion-button lead collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse-4-1" aria-expanded="false" aria-controls="collapse-4-1">
+                    Can I use static HTML files ?
+                  </button>
+                </h2>
+                <div id="collapse-4-1" class="accordion-collapse collapse" aria-labelledby="heading-4-1"
+                  data-bs-parent="#accordion-4">
+                  <div class="accordion-body">
+                    <p class="text-secondary">Yes. The gulp workflow can
+                      be
+                      bypassed all together if you prefer to simply edit the static HTML and CSS files.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-4-2">
+                  <button class="accordion-button lead collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse-4-2" aria-expanded="false" aria-controls="collapse-4-2">
+                    Grids &amp; Layout
+                  </button>
+                </h2>
+                <div id="collapse-4-2" class="accordion-collapse collapse" aria-labelledby="heading-4-2"
+                  data-bs-parent="#accordion-4">
+                  <div class="accordion-body">
+                    <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo,
+                      voluptas. Quibusdam, quia. Accusantium, quo maxime est ullam at voluptas aspernatur. Iure
+                      assumenda labore esse vero ad. Deleniti ea totam dolorem.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-4-3">
+                  <button class="accordion-button lead collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse-4-3" aria-expanded="false" aria-controls="collapse-4-3">
+                    Grids &amp; Layout
+                  </button>
+                </h2>
+                <div id="collapse-4-3" class="accordion-collapse collapse" aria-labelledby="heading-4-3"
+                  data-bs-parent="#accordion-4">
+                  <div class="accordion-body">
+                    <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo,
+                      voluptas. Quibusdam, quia. Accusantium, quo maxime est ullam at voluptas aspernatur. Iure
+                      assumenda labore esse vero ad. Deleniti ea totam dolorem.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <ul class="list-inline list-inline-separated text-secondary eyebrow">
+              <li class="list-inline-item">2 Lessons</li>
+              <li class="list-inline-item">3.3 Hours</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- Place <div> tag where you want the feed to appear -->
+   <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+   <!-- The Javascript can be moved to the end of the html page before the </body> tag -->
+   <script type="text/javascript">
+   /* curator-feed-default-feed-layout */
+   (function(){
+   var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
+   i.src = "https://cdn.curator.io/published/5ce0c24c-90e8-4f57-8ed3-6092beb6e0c4.js";
+   e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+   })();
+   </script>
+  <!-- footer -->
+  <footer class="py-15 py-xl-20 bg-light">
+    <div class="container">
+      <div class="row g-2 g-lg-6 mb-8">
+        <div class="col-lg-6">
+          <h6>103 W. Landry Street Opelousas, <br>LA 70570</h6>
+        </div>
+        <div class="col-lg-6 text-lg-end">
+          <span class="h5"><img src="./assets/images/text.svg" style="width:50%"/></span>
+        </div>
+      </div>
+      <div class="row mb-8">
+        <div class="col">
+          <hr>
+        </div>
+      </div>
+      <div class="row g-0 g-lg-6 text-secondary">
+        <div class="col-lg-6 text-lg-end order-lg-2">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://facebook.com/opelousasartwalk" class="text-reset" target="_blank">facebook</a></li>
+            <li class="list-inline-item ms-1"><a href="https://instagram.com/opelousasartwalk" class="text-reset" target="_blank">instagram</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <p>Copyrights © 2021</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- javascript -->
+  <script src="./assets/js/vendor.bundle.js"></script>
+  <script src="./assets/js/index.bundle.js"></script></body>
+
+</html>

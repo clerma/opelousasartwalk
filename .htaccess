@@ -1,0 +1,6 @@
+RewriteEngine On 
+Options -MultiViews
+RewriteCond %{SERVER_PORT} 80
+DirectoryIndex home
+RewriteCond %{HTTP_HOST} ^(www\.)?opelousasartwalk\.com
+RewriteRule ^(.*)$ https://www.opelousasartwalk.com/ [L,R=301]

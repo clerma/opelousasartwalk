@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <!-- Favicon -->
+  <!-- <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon" /> -->
+  
+  <!-- Libs CSS -->
+  <link rel="stylesheet" href="./assets/css/libs.bundle.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+ 
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="./assets/css/index.bundle.css" />
+  
+  <!-- Title -->
+<title>Opelousas Art Walk Map</title>
+
+</head>
+
+<style>
+  body {
+    --bs-primary: #944F37;
+  }
+</style>
+
+<body>
+
+  <!-- navbar -->
+  <nav id="mainNav" class="navbar navbar-expand-lg navbar-sticky navbar-dark bg-danger">
+    <div class="container">
+      <a href="home" class="navbar-brand"><img src="./assets/images/logo-light.svg" style="min-width:250px;" alt="Opelousas Art Walk"></a>
+  
+      <!-- secondary -->
+     <ul class="navbar-nav navbar-nav-secondary order-lg-3">
+       <li class="nav-item d-lg-none">
+         <a class="nav-link nav-icon" href="" role="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+           aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="bi bi-list"></span>
+         </a>
+       </li>
+      
+     </ul>
+ 
+      <!-- primary -->
+      <div class="collapse navbar-collapse" id="navbar" data-bs-parent="#mainNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="about">
+            About
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="map">
+            Artwalk Map
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="artist">
+            Artist
+          </a>
+        </li>
+        <li class="nav-item d-none">
+          <a class="nav-link" href="businesses">
+            Businesses
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact">
+            Contact
+          </a>
+        </li>
+      </ul>
+      </div>
+  
+      <!-- mobile user menu -->
+    </div>
+  </nav>
+  
+
+
+  <div class="offcanvas-wrap">
+
+
+    <!-- hero -->
+    <section class="overflow-hidden py-15 py-xl-20">
+      <div class="container">
+        <div class="row align-items-end mb-10 mt-5">
+          <div class="col-lg-12 mx-auto">
+            <a href="./assets/images/maps.png" download class="btn btn-dark rounded-pill my-3">Download Map</a>
+           <img src="./assets/images/maps.png" class="img-fluid"/>
+          
+          </div>
+          
+        </div>
+      </div>
+     
+    </section>
+
+
+  <!-- footer -->
+  <footer class="py-15 py-xl-20 bg-light">
+    <div class="container">
+      <div class="row g-2 g-lg-6 mb-8">
+        <div class="col-lg-6">
+          <h6>103 W. Landry Street Opelousas, <br>LA 70570</h6>
+        </div>
+        <div class="col-lg-6 text-lg-end">
+          <span class="h5"><img src="./assets/images/text.svg" style="width:50%"/></span>
+        </div>
+      </div>
+      <div class="row mb-8">
+        <div class="col">
+          <hr>
+        </div>
+      </div>
+      <div class="row g-0 g-lg-6 text-secondary">
+        <div class="col-lg-6 text-lg-end order-lg-2">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://facebook.com/opelousasartwalk" class="text-reset" target="_blank">facebook</a></li>
+            <li class="list-inline-item ms-1"><a href="https://instagram.com/opelousasartwalk" class="text-reset" target="_blank">instagram</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <p>Copyrights © 2021</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- javascript -->
+  <script src="./assets/js/vendor.bundle.js"></script>
+  <script src="./assets/js/index.bundle.js"></script></body>
+
+</html>
